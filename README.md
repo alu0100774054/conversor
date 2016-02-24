@@ -1,8 +1,11 @@
 #Procesadores de Lenguajes
 ---
 ###Erik Andreas Barreto de Vera alu0100774054
+<<<<<<< HEAD
 ##Jorge Alonso Hernandez alu0100767803
 
+=======
+>>>>>>> master
 ## Práctica 2: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
 ### Que aprendemos
