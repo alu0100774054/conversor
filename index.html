@@ -1,31 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Conversor de temperaturas</title>
-  <link href="normalize.css" rel="stylesheet" type="text/css">
-  <link href="global.css" rel="stylesheet" type="text/css">
-  <link async href="http://fonts.googleapis.com/css?family=Passero%20One" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-    <div>
-      <h1 class="threeD">CONVERSOR DE TEMPERATURAS</h1>
-    </div>
-    <div>
-      <h1 class="h1">
-        Instrucciones:
-        <br>
-        Introducir una temperatura en Celsius o Farenheit.
-      </h1>
-    </div>
-      <div class="bloque" align = center>
-        <input class="input" placeholder="Introducir temperatura" />
-      </div>
-      <br></br>
-      <br></br>
-    <div class="bloque" align = center>
-      <input type="button" class="button" value="Calcular"  onclick="calculate()"  />
-    </div>
-</body>
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Calculadora de Temperaturas en JS</title>
+
+    <link href="reset.css" rel="stylesheet" type="text/css">
+
+    <link href="global.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="temperature.js"></script>
+ </head>
+
+ <body>
+   <h1>Calculadora de Temperaturas</h1>
+   <table>
+     <tr>
+       <th>Ingrese la Temperatura (e.g: 90F, 37C, -3.14f):</th>
+       <td><input  class="input" id="original" autofocus onchange="calcular();" placeholder="43F" size="50"></td>
+     </tr>
+     <tr>
+       <th>Resultado, temperatura convertida:</th>
+       <td><span class="output" id="converted"></span></td>
+     </tr>
+   </table>
+ </body>
 </html>
