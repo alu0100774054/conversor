@@ -1,11 +1,9 @@
-#Procesadores de Lenguajes
-
+#Asignatura: Procesadores de Lenguajes
+##Alumnos
+---
 ###Erik Andreas Barreto de Vera alu0100774054
-<<<<<<< HEAD
-##Jorge Alonso Hernandez alu0100767803
-
-=======
->>>>>>> master
+###Jorge Alonso Hernandez alu0100767803
+---
 ## Práctica 2: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
 ### Que aprendemos
@@ -20,8 +18,4 @@
 
 ### Despliegue en github.io
 
-* [Conversor de temperaturas]http://alu0100774054.github.io/ull-etsii-grado-pl-1213-temperature-converter/
-
-### Ejecutar las pruebas
-
-* [Pruebas del conversor](http://alu0100774054.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
+* [Conversor de temperaturas]http://alu0100774054.github.io/conversor
