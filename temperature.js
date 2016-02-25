@@ -5,7 +5,7 @@ function calcular() {
   var original = document.getElementById("original");
   var temp = original.value;
   var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
-  var mejorRegex = /(^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)\s*([fFcC])/
+  var mejorRegex = /(^[-+]?[0-9]*\.?[0-9]+(?:[eE][-+]?[0-9]+)?)\s*((?:f(?:a(?:r(?:e(?:n(?:h(?:e(?:i(?:t)?)?)?)?)?)?)?)?)|(?:c(?:e(?:l(?:s(?:i(?:u(?:s)?)?)?)?)?)?)?)\s*$/i;
   var x = temp.match(mejorRegex);
 
   if (x) {
