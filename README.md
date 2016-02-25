@@ -16,6 +16,14 @@
 * Uso de Mocha y Chai
 * Uso de Gulp
 
-### Despliegue en github.io
+### conversor
 
 * [Conversor de temperaturas]http://alu0100774054.github.io/conversor
+
+### Campus virtual de la Asignatura
+
+* [Campus virtual Procesadores de Lenguajes]https://campusvirtual.ull.es/1516/course/view.php?id=178
+
+### Página de la Asignatura
+
+* [Página de la asignatura]http://alu0100774054.github.io/
