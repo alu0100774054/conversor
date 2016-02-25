@@ -7,20 +7,33 @@
     <link href="reset.css" rel="stylesheet" type="text/css">
 
     <link href="global.css" rel="stylesheet" type="text/css">
-
+    <link async href="http://fonts.googleapis.com/css?family=VT323" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    <link async href="http://fonts.googleapis.com/css?family=Antic" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+    <link async href="http://fonts.googleapis.com/css?family=Antic" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="temperature.js"></script>
  </head>
 
- <body>
-   <h1>Calculadora de Temperaturas</h1>
-   <table>
+ <body class="bg-1">
+   <h1 class="titulo" style="width:100%">Calculadora de Temperaturas</h1>
+   <table style="width:100%">
      <tr>
-       <th>Ingrese la Temperatura (e.g: 90F, 37C, -3.14f):</th>
-       <td><input  class="input" id="original" autofocus onchange="calcular();" placeholder="43F" size="50"></td>
-     </tr>
-     <tr>
-       <th>Resultado, temperatura convertida:</th>
-       <td><span class="output" id="converted"></span></td>
+       <td class="instruccion">
+         <h3>Indicaciones</h3>
+         <p>*****************************************</p>
+         <p>· Ingresar la temperatura.</p>
+         <p>· Debe estar en Celsius o Farenheit</p>
+         <p>· Puede empezar por + ó -</p>
+         <p>· Debe continuar por digitos</p>
+         <p>· Debe acabar en en 'f', 'F', 'c', 'C'</p>
+         <p>*****************************************</p>
+         <p>Resultado, temperatura convertida:
+           <br>
+           <br>
+           <span id="converted" ></span>
+         </p>
+         <p>*****************************************</p>
+       </td>
+       <td><input  class="input entrada" id="original" autofocus onchange="calcular();" placeholder="43F" size="50"></td>
      </tr>
    </table>
  </body>
